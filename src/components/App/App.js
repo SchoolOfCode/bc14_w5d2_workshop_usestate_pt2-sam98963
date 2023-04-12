@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <h1>JSX will go here!</h1>
       <Input handleChange={handleChange}/>
-      <Item text={text}/>
-      <Item text={text}/>
-      <Item text={text}/>
+      <Item text={text} font="Tahoma"/>
+      <Item text={text} font="Marker Felt"/>
+      <Item text={text} font="Luminari"/>
     </div>
   );
 }

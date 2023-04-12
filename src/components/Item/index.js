@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Item(props, font){
-return <li style={{fontFamily: `${font}`}}>{props.text}</li>
+function Item(props){
+return <li style={{fontFamily: `${props.font}`}}>{props.text}</li>
 }
 
 export default Item;
